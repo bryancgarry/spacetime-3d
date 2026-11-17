@@ -1,0 +1,19 @@
+# macOS and editor files
+.DS_Store
+*.code-workspace
+
+# Build output and generated IDE projects
+build/
+build_xcode/
+build_win/
+cmake-build-*/
+
+# Third-party libraries (see README for setup)
+lib/
+include/
+
+# Course submission archives
+*.zip
+
+# Original 8K textures (the repo uses downsized copies in textures/)
+textures_8k/
